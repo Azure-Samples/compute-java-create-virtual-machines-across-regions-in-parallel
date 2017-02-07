@@ -228,8 +228,8 @@ public final class CreateVirtualMachinesInParallel {
             //=============================================================
             // Authenticate
             //
-            System.out.println("AZURE_AUTH_LOCATION_2=" + System.getenv("AZURE_AUTH_LOCATION_2"));
-            final File credFile = new File(System.getenv("AZURE_AUTH_LOCATION_2"));
+            System.out.println("AZURE_AUTH_LOCATION=" + System.getenv("AZURE_AUTH_LOCATION"));
+            final File credFile = new File(System.getenv("AZURE_AUTH_LOCATION"));
 
             Azure azure = Azure
                     .configure()
