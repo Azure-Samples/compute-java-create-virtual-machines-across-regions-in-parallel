@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Compute
-platforms: java
-author: yaohaizh
+extensions:
+- services: Compute
+- platforms: java
 ---
 
-## Getting Started with Compute - Create Virtual Machines In Parallel - in Java ##
+# Getting Started with Compute - Create Virtual Machines In Parallel - in Java #
 
 
   Azure compute sample for creating multiple virtual machines in parallel.
