@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Compute
-- platforms: java
+description: "Azure compute sample for creating multiple virtual machines in parallel."
+urlFragment: compute-java-create-virtual-machines-across-regions-in-parallel
 ---
 
 # Getting Started with Compute - Create Virtual Machines In Parallel - in Java #
